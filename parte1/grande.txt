@@ -1,5 +1,4 @@
-
-['Michele Brito', 63, 92, 1100.5, ['Lucas Sampaio', 'William Caldeira', 'Laura Arantes']]
+['Davi Brito', 63, 92, 1100.5, ['Lucas Sampaio', 'William Caldeira', 'Laura Arantes']]
 ['Mirella Novaes', 34, 19, 460.99, 'Eliane Boaventura']
 ['Cassio Nascimento', 28, 75, 1100.5, ['Dayane Farias', 'Aline Reis', 'Xisto Acioli']]
 ['Vitor Bonfim', 77, 88, 1100.5, ['Samuel Leite', 'Ursula Martins', 'Gabriel Soares']]
