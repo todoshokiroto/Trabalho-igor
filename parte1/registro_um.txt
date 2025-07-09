@@ -1,0 +1,27 @@
+primeiro criaremos uma função que gera aleatoriamente cada um dos atributos dos cliente, sendo estes:
+o nome, a idade, o quarto, valor, acompanhantes
+
+para criar nomes aleatórios pedi uma 200 nomes e outra de 200 sobrenomes para
+mesclalos. 
+
+parar gerar a idade apenas peguei um numeros aleatório entre 18 e 80
+
+para gerar o quarto peguei um numero aleatório de 1 a 100
+
+defini um preço pra cada terço de 100:
+de 1 a 33  = 460.99 reais a diária, duas pessoa
+de 34 a 66 = 737.33 reais a diaria, tres pessoas
+de 67 a 1000 = 1100.5 a diária, quatro pessoas
+
+caso a pessoa esteja em um quarto de duas ou mais pessoas, ele tera um atributo de 
+acompanhantes, que é o gerador de nomes usado 1, 2 ou 3 vezes de acordo com o quarto
+os acompanhantes não são considerados hospedes.
+
+a partir disso foi criada a função gera cliente, decidimos que o tamanho de cada uma ia ser 200, 500, 2000 e 6000
+e o tempo de execução foi respectivamente 
+0.02411937713623047
+0.14389753341674805
+0.4825866222381592
+1.5902833938598633
+
+no caso da menor, é o dobro disso, já que eu rodei 100 duas vezes por engano
