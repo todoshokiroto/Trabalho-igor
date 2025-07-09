@@ -1,1 +1,2 @@
-na segunda etapa
+primeiro vamos definir a classe cliente com os atributos:
+nome, idade, quarto, preço da diária e acompanhantes

@@ -76,35 +76,28 @@ def gerar_cliente():
 
 inicio = time.time()
 for i in range(100):
-    with open("parte1/pequeno.txt","a") as arquivo:
+    with open("pequeno.txt","a") as arquivo:
         arquivo.write("\n" + str(gerar_cliente()))
 fim = time.time()
 print(fim - inicio)
 
 inicio = time.time()
 for i in range(500):
-    with open("parte1/medio.txt","a") as arquivo:
-        arquivo.write("\n" + str(gerar_cliente()))
-fim = time.time()
-print(fim - inicio)
-
-inicio = time.time()
-for i in range(100):
-    with open("parte1/pequeno.txt","a") as arquivo:
+    with open("medio.txt","a") as arquivo:
         arquivo.write("\n" + str(gerar_cliente()))
 fim = time.time()
 print(fim - inicio)
 
 inicio = time.time()
 for i in range(2000):
-    with open("parte1/grande.txt","a") as arquivo:
+    with open("grande.txt","a") as arquivo:
         arquivo.write("\n" + str(gerar_cliente()))
 fim = time.time()
 print(fim - inicio)
 
 inicio = time.time()
 for i in range(6000):
-    with open("parte1/muito_grande.txt","a") as arquivo:
+    with open("muito_grande.txt","a") as arquivo:
         arquivo.write("\n" + str(gerar_cliente()))
 fim = time.time()
 print(fim - inicio)
