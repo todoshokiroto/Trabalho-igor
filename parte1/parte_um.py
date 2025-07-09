@@ -71,7 +71,7 @@ def gerar_cliente():
         lista.append(gerar_acompanhantes(2))
     else:
         lista.append(460.99)
-        lista.append(gerar_nome)
+        lista.append(gerar_nome())
     return lista
 
 inicio = time.time()
