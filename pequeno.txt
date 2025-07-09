@@ -1,4 +1,3 @@
-
 ['Xavier Coimbra', 65, 37, 737.33, ['Kleiton Costa', 'Joao Machado']]
 ['Quesia Medeiros', 25, 30, 460.99, 'Pamela Arruda']
 ['Xuxa Abreu', 18, 95, 1100.5, ['Bruna Leme', 'Rafaela Marinho', 'Daiane Belem']]

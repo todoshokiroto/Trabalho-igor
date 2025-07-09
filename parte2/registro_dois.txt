@@ -1,2 +1,13 @@
 primeiro vamos definir a classe cliente com os atributos:
 nome, idade, quarto, preço da diária e acompanhantes
+
+demorei bastante pra achar um jeito de usar o arquivo txt, até achar a biblioteca ast.literal_eval
+a partir dai foi simples, criei uma lista com os objetos
+
+como estava dando o \n antes da lista, havia sempre um espaço em branco no inicio da lista, então estava dando erro
+
+o tempo de demora da criação de cada lista foi
+0.04964900016784668
+0.02217888832092285
+0.0010068416595458984
+0.13041138648986816

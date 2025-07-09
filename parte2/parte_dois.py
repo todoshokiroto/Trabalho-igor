@@ -9,18 +9,36 @@ class Pessoa:
         self.acompanhantes = acompanhantes
     def present(self):
         print(f'meu nome é {self.nome},tenho {self.idade} anos e estou no quarto {self.quarto}')
+def cria_lista(arq):
+    lista = []
+    with open(arq,"r",encoding ="utf8" ) as arquivo:
+        for i in arquivo:
+            dados = ast.literal_eval(i.strip())
+            #print(dados)
+            nome =  dados[0]
+            idade = int(dados[1])
+            quarto = int(dados[2])
+            preco = float(dados[3])
+            acompanhantes = dados[4]
+            lista.append(Pessoa(nome,idade,quarto,preco,acompanhantes))
+    return lista
 
-lista_pequena = []
-with open("pequeno.txt","r",encoding ="utf8" ) as arquivo:
-    for i in arquivo:
-        dados = eval(i)
-        print(dados)
-        '''
-        nome =  dados[0]
-        idade = int(dados[1])
-        quarto = int(dados[2])
-        preco = float(dados[3])
-        acompanhantes = [j.strip('[').strip(']') for j in dados[:4]]
-        '''
+inicio =  time.time()
+lista_grande = cria_lista("grande.txt")
+fim = time.time()
+print(fim-inicio)
 
-print(lista_pequena)
+inicio =  time.time()
+lista_media = cria_lista("medio.txt")
+fim = time.time()
+print(fim-inicio)
+
+inicio =  time.time()
+lista_pequena = cria_lista("pequeno.txt")
+fim = time.time()
+print(fim-inicio)
+
+inicio =  time.time()
+lista_muito_grande = cria_lista("muito_grande.txt")
+fim = time.time()
+print(fim-inicio)

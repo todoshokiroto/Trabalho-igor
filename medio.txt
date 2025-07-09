@@ -1,4 +1,3 @@
-
 ['Rodrigo Altamirano', 39, 34, 737.33, ['Marcelo Felix', 'Carla Sampaio']]
 ['Fatima Laranjeira', 29, 52, 737.33, ['Giovana Correia', 'Ana Achcar']]
 ['Icaro Santos', 40, 47, 737.33, ['Clara Achcar', 'Gustavo Avellar']]

@@ -1,4 +1,3 @@
-
 ['Luiz Oliveira', 52, 92, 1100.5, ['Augusto Xavier', 'Wellington Belarmino', 'Ana Sabino']]
 ['Luan Seabra', 77, 46, 737.33, ['Giovana Borges', 'Zilda Matias']]
 ['Otavia Sampaio', 66, 57, 737.33, ['Bianca Rodrigues', 'Amanda Lourenco']]
